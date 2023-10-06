@@ -27,6 +27,7 @@ except Exception as e:
 proxies=open('proxies.txt','r').read().splitlines()
 
 
+
 android_models=[]
 try:
 	xx = requests.get('https://raw.githubusercontent.com/Ramxantanha/data/main/strings.txt').text.splitlines()
